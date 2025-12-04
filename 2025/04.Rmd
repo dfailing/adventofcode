@@ -243,17 +243,14 @@ Start with your original diagram. How many rolls of paper in total can be remove
 # Solution (Part Two) ----------------------------------------------------------
 
 ```{r}
-input <- read_lines("04-example.txt")
-# input <- read_lines("04-input.txt")
+# input <- read_lines("04-example.txt")
+input <- read_lines("04-input.txt")
 
 input_matrix <-
   input %>%
   str_split("") %>%
     do.call(rbind, .)
 
-# TODO mark accessible rolls
-# TODO increment the count
-# TODO remove accessible rolls
 remove_accessible_rolls <- function(accessible_rolls) {
   matrix(
     str_replace_all(accessible_rolls, "x", "."),
