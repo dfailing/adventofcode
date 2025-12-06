@@ -1,5 +1,5 @@
 ---
-title: "Advent of Code 2025 - Day 03"
+title: "Advent of Code 2025 - Day 06"
 author: "David Failing"
 date: \today
 output: 

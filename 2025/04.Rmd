@@ -1,5 +1,5 @@
 ---
-title: "Advent of Code 2025 - Day 03"
+title: "Advent of Code 2025 - Day 04"
 author: "David Failing"
 date: \today
 output: 
@@ -57,8 +57,8 @@ To begin, get your puzzle input.
 # Solution (Part One) ----------------------------------------------------------
 
 ```{r}
-# input <- read_lines("04-example.txt")
-input <- read_lines("04-input.txt")
+input <- read_lines("04-example.txt")
+# input <- read_lines("04-input.txt")
 
 input_matrix <-
   input %>%
