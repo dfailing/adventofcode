@@ -9,7 +9,6 @@ output:
 
 ```{r setup, message = FALSE, warning = FALSE, echo = FALSE}
 library(tidyverse)
-library(data.table)
 ```
 
 # Day 6: Trash Compactor -------------------------------------------------------
